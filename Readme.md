@@ -1,0 +1,1 @@
+.net core+eureka rest api注册与发现服务；.net core+redis分布式缓存；

@@ -1,0 +1,14 @@
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka.Test\bin\Debug\netcoreapp2.2\Yibi.Eureka.Test.deps.json
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka.Test\bin\Debug\netcoreapp2.2\Yibi.Eureka.Test.runtimeconfig.json
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka.Test\bin\Debug\netcoreapp2.2\Yibi.Eureka.Test.runtimeconfig.dev.json
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka.Test\bin\Debug\netcoreapp2.2\Yibi.Eureka.Test.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka.Test\obj\Debug\netcoreapp2.2\Eureka.Test.csproj.CoreCompileInputs.cache
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka.Test\obj\Debug\netcoreapp2.2\Eureka.Test.AssemblyInfoInputs.cache
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka.Test\obj\Debug\netcoreapp2.2\Eureka.Test.AssemblyInfo.cs
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka.Test\obj\Debug\netcoreapp2.2\Eureka.Test.csprojAssemblyReference.cache
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka.Test\bin\Debug\netcoreapp2.2\Yibi.Eureka.Test.pdb
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka.Test\bin\Debug\netcoreapp2.2\Yibi.Eureka.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka.Test\bin\Debug\netcoreapp2.2\Yibi.Eureka.pdb
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka.Test\obj\Debug\netcoreapp2.2\Eureka.Test.csproj.CopyComplete
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka.Test\obj\Debug\netcoreapp2.2\Yibi.Eureka.Test.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka.Test\obj\Debug\netcoreapp2.2\Yibi.Eureka.Test.pdb

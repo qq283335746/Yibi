@@ -1,0 +1,8 @@
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka\obj\Debug\netstandard2.0\Eureka.csproj.CoreCompileInputs.cache
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka\obj\Debug\netstandard2.0\Eureka.AssemblyInfoInputs.cache
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka\obj\Debug\netstandard2.0\Eureka.AssemblyInfo.cs
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka\bin\Debug\netstandard2.0\Yibi.Eureka.deps.json
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka\bin\Debug\netstandard2.0\Yibi.Eureka.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka\bin\Debug\netstandard2.0\Yibi.Eureka.pdb
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka\obj\Debug\netstandard2.0\Yibi.Eureka.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka\obj\Debug\netstandard2.0\Yibi.Eureka.pdb

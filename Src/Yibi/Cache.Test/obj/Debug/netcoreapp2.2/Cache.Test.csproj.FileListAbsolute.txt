@@ -1,0 +1,14 @@
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Cache.Test\bin\Debug\netcoreapp2.2\Yibi.Cache.Test.deps.json
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Cache.Test\bin\Debug\netcoreapp2.2\Yibi.Cache.Test.runtimeconfig.json
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Cache.Test\bin\Debug\netcoreapp2.2\Yibi.Cache.Test.runtimeconfig.dev.json
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Cache.Test\bin\Debug\netcoreapp2.2\Yibi.Cache.Test.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Cache.Test\obj\Debug\netcoreapp2.2\Cache.Test.csproj.CoreCompileInputs.cache
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Cache.Test\obj\Debug\netcoreapp2.2\Cache.Test.AssemblyInfoInputs.cache
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Cache.Test\obj\Debug\netcoreapp2.2\Cache.Test.AssemblyInfo.cs
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Cache.Test\bin\Debug\netcoreapp2.2\Yibi.Cache.Test.pdb
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Cache.Test\obj\Debug\netcoreapp2.2\Yibi.Cache.Test.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Cache.Test\obj\Debug\netcoreapp2.2\Yibi.Cache.Test.pdb
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Cache.Test\obj\Debug\netcoreapp2.2\Cache.Test.csprojAssemblyReference.cache
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Cache.Test\bin\Debug\netcoreapp2.2\Yibi.Cache.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Cache.Test\bin\Debug\netcoreapp2.2\Yibi.Cache.pdb
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Cache.Test\obj\Debug\netcoreapp2.2\Cache.Test.csproj.CopyComplete
