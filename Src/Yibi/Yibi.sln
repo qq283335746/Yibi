@@ -5,11 +5,19 @@ VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eureka", "Eureka\Eureka.csproj", "{E4C22A7E-A084-4E68-82ED-555CEC87AEE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cache", "Cache\Cache.csproj", "{77B579E0-F4CE-415E-B18A-9A3EE101E37E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cache", "Cache\Cache.csproj", "{77B579E0-F4CE-415E-B18A-9A3EE101E37E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cache.Test", "Cache.Test\Cache.Test.csproj", "{C8FAEBD7-7DC5-4E32-8B87-14BDE6FCBE49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cache.Test", "Cache.Test\Cache.Test.csproj", "{C8FAEBD7-7DC5-4E32-8B87-14BDE6FCBE49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eureka.Test", "Eureka.Test\Eureka.Test.csproj", "{0D589B4C-C15D-40AF-9D0B-D9B1F8637184}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eureka.Test", "Eureka.Test\Eureka.Test.csproj", "{0D589B4C-C15D-40AF-9D0B-D9B1F8637184}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories.MySql", "Repositories.MySql\Repositories.MySql.csproj", "{AE5DA1C3-9C8C-42FA-BE38-C9078889F1B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories.Core", "Repositories.Core\Repositories.Core.csproj", "{AD1C74E4-6C68-43BC-B660-9B7F63296DA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories.Sqlite", "Repositories.Sqlite\Repositories.Sqlite.csproj", "{B94903E0-CE63-47D9-984B-8012F4BC7017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{C763C139-3A17-491E-98B2-979459FB4480}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{0D589B4C-C15D-40AF-9D0B-D9B1F8637184}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D589B4C-C15D-40AF-9D0B-D9B1F8637184}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D589B4C-C15D-40AF-9D0B-D9B1F8637184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE5DA1C3-9C8C-42FA-BE38-C9078889F1B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5DA1C3-9C8C-42FA-BE38-C9078889F1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5DA1C3-9C8C-42FA-BE38-C9078889F1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5DA1C3-9C8C-42FA-BE38-C9078889F1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD1C74E4-6C68-43BC-B660-9B7F63296DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1C74E4-6C68-43BC-B660-9B7F63296DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1C74E4-6C68-43BC-B660-9B7F63296DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1C74E4-6C68-43BC-B660-9B7F63296DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B94903E0-CE63-47D9-984B-8012F4BC7017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B94903E0-CE63-47D9-984B-8012F4BC7017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B94903E0-CE63-47D9-984B-8012F4BC7017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B94903E0-CE63-47D9-984B-8012F4BC7017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C763C139-3A17-491E-98B2-979459FB4480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C763C139-3A17-491E-98B2-979459FB4480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C763C139-3A17-491E-98B2-979459FB4480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C763C139-3A17-491E-98B2-979459FB4480}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

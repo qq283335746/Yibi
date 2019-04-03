@@ -1,0 +1,12 @@
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Sqlite\bin\Debug\netstandard2.0\Yibi.Repositories.Sqlite.deps.json
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Sqlite\bin\Debug\netstandard2.0\Yibi.Repositories.Sqlite.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Sqlite\bin\Debug\netstandard2.0\Yibi.Repositories.Sqlite.pdb
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Sqlite\bin\Debug\netstandard2.0\Yibi.Repositories.Core.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Sqlite\bin\Debug\netstandard2.0\Yibi.Repositories.Core.pdb
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Sqlite\obj\Debug\netstandard2.0\Repositories.Sqlite.csprojAssemblyReference.cache
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Sqlite\obj\Debug\netstandard2.0\Repositories.Sqlite.csproj.CoreCompileInputs.cache
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Sqlite\obj\Debug\netstandard2.0\Repositories.Sqlite.AssemblyInfoInputs.cache
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Sqlite\obj\Debug\netstandard2.0\Repositories.Sqlite.AssemblyInfo.cs
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Sqlite\obj\Debug\netstandard2.0\Repositories.Sqlite.csproj.CopyComplete
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Sqlite\obj\Debug\netstandard2.0\Yibi.Repositories.Sqlite.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Sqlite\obj\Debug\netstandard2.0\Yibi.Repositories.Sqlite.pdb

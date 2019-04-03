@@ -1,0 +1,8 @@
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Core\obj\Debug\netstandard2.0\Repositories.Core.csproj.CoreCompileInputs.cache
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Core\obj\Debug\netstandard2.0\Repositories.Core.AssemblyInfoInputs.cache
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Core\obj\Debug\netstandard2.0\Repositories.Core.AssemblyInfo.cs
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Core\bin\Debug\netstandard2.0\Yibi.Repositories.Core.deps.json
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Core\bin\Debug\netstandard2.0\Yibi.Repositories.Core.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Core\bin\Debug\netstandard2.0\Yibi.Repositories.Core.pdb
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Core\obj\Debug\netstandard2.0\Yibi.Repositories.Core.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Core\obj\Debug\netstandard2.0\Yibi.Repositories.Core.pdb

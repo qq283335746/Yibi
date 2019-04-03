@@ -6,3 +6,4 @@ E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka\bin\Debug\netstandard2.0\Yibi.Eureka.dl
 E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka\bin\Debug\netstandard2.0\Yibi.Eureka.pdb
 E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka\obj\Debug\netstandard2.0\Yibi.Eureka.dll
 E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka\obj\Debug\netstandard2.0\Yibi.Eureka.pdb
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Eureka\obj\Debug\netstandard2.0\Eureka.csprojAssemblyReference.cache

@@ -194,7 +194,7 @@
     "Microsoft.Win32.Primitives/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Nm8Hp51y9tYcK3xD6qk43Wjftrg1mdH24CCJsTb6gr7HS21U1uA+CKPGEtUcVZbjU1y8Kynzm5eoJ7Pnx5gm8A==",
+      "sha512": "sha512-kGyQFbhHB4wxV2Il/0kFsICTrXOkMUh1HJ510aj/OF8yM/7yzX1n+FSBz9vYkpa8UJ9fyC0NhJPtGlMaGpUqfA==",
       "path": "microsoft.win32.primitives/4.3.0",
       "hashPath": "microsoft.win32.primitives.4.3.0.nupkg.sha512"
     },
@@ -236,7 +236,7 @@
     "System.Net.Sockets/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4y7ZUY6WMOme3PGWPD0OcEfqglKFPJJg61QDpCBhcK4o/SfrI5852k0tt2b4MLPr3J5NouaXviAkHZKAgiAJVQ==",
+      "sha512": "sha512-dN8uPu4GfuX3BVTRZ+oQe29t681GYf4wyC9NsIXBiBhzYiEiunSOpbNzb8Lq4vOZbvfM6oCbxT5IONtvkHL+QA==",
       "path": "system.net.sockets/4.3.0",
       "hashPath": "system.net.sockets.4.3.0.nupkg.sha512"
     },
@@ -250,7 +250,7 @@
     "System.Threading.Timer/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1c6OJYt7574mj5ROIWIRlZSBBvV+bEbmmyiHxG9Wd2A2ixToQEa0vkRm7NCOzUywQBai/3lIy0ZAlgvvx6oXOQ==",
+      "sha512": "sha512-+1Wr41VBBMBBMSPUwyhvTPzMMbhR2GT3LkcA6CfVuG01g9UbZ3vY31ebHCD0Wy2uv6KHw8+jPsp4qNKPJoBC6w==",
       "path": "system.threading.timer/4.3.0",
       "hashPath": "system.threading.timer.4.3.0.nupkg.sha512"
     },
