@@ -1,0 +1,12 @@
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.SqlServer\bin\Debug\netstandard2.0\Yibi.Repositories.SqlServer.deps.json
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.SqlServer\bin\Debug\netstandard2.0\Yibi.Repositories.SqlServer.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.SqlServer\bin\Debug\netstandard2.0\Yibi.Repositories.Core.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.SqlServer\bin\Debug\netstandard2.0\Yibi.Repositories.Core.pdb
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.SqlServer\obj\Debug\netstandard2.0\Repositories.SqlServer.csproj.CoreCompileInputs.cache
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.SqlServer\obj\Debug\netstandard2.0\Repositories.SqlServer.AssemblyInfoInputs.cache
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.SqlServer\obj\Debug\netstandard2.0\Repositories.SqlServer.AssemblyInfo.cs
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.SqlServer\obj\Debug\netstandard2.0\Repositories.SqlServer.csproj.CopyComplete
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.SqlServer\bin\Debug\netstandard2.0\Yibi.Repositories.SqlServer.pdb
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.SqlServer\obj\Debug\netstandard2.0\Repositories.SqlServer.csprojAssemblyReference.cache
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.SqlServer\obj\Debug\netstandard2.0\Yibi.Repositories.SqlServer.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.SqlServer\obj\Debug\netstandard2.0\Yibi.Repositories.SqlServer.pdb

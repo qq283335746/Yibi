@@ -19,6 +19,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories.Sqlite", "Repo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{C763C139-3A17-491E-98B2-979459FB4480}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories.PostgreSql", "Repositories.PostgreSql\Repositories.PostgreSql.csproj", "{FD6EE6BB-74AC-4BF1-9E60-493326D8B805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories.SqlServer", "Repositories.SqlServer\Repositories.SqlServer.csproj", "{27EB98A7-C2E5-4947-B423-A612F0BF1DE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{C763C139-3A17-491E-98B2-979459FB4480}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C763C139-3A17-491E-98B2-979459FB4480}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C763C139-3A17-491E-98B2-979459FB4480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD6EE6BB-74AC-4BF1-9E60-493326D8B805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD6EE6BB-74AC-4BF1-9E60-493326D8B805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD6EE6BB-74AC-4BF1-9E60-493326D8B805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD6EE6BB-74AC-4BF1-9E60-493326D8B805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27EB98A7-C2E5-4947-B423-A612F0BF1DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27EB98A7-C2E5-4947-B423-A612F0BF1DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27EB98A7-C2E5-4947-B423-A612F0BF1DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27EB98A7-C2E5-4947-B423-A612F0BF1DE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

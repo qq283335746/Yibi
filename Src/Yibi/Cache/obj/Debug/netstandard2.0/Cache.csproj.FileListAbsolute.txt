@@ -6,3 +6,4 @@ E:\MyWorkspace\Temp\Yibi\Src\Yibi\Cache\obj\Debug\netstandard2.0\Cache.AssemblyI
 E:\MyWorkspace\Temp\Yibi\Src\Yibi\Cache\bin\Debug\netstandard2.0\Yibi.Cache.pdb
 E:\MyWorkspace\Temp\Yibi\Src\Yibi\Cache\obj\Debug\netstandard2.0\Yibi.Cache.dll
 E:\MyWorkspace\Temp\Yibi\Src\Yibi\Cache\obj\Debug\netstandard2.0\Yibi.Cache.pdb
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Cache\obj\Debug\netstandard2.0\Cache.csprojAssemblyReference.cache

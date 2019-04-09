@@ -6,3 +6,4 @@ E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Core\bin\Debug\netstandard2.0\Yib
 E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Core\bin\Debug\netstandard2.0\Yibi.Repositories.Core.pdb
 E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Core\obj\Debug\netstandard2.0\Yibi.Repositories.Core.dll
 E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Core\obj\Debug\netstandard2.0\Yibi.Repositories.Core.pdb
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.Core\obj\Debug\netstandard2.0\Repositories.Core.csprojAssemblyReference.cache

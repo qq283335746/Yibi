@@ -1,0 +1,12 @@
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.PostgreSql\bin\Debug\netstandard2.0\Yibi.Repositories.PostgreSql.deps.json
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.PostgreSql\bin\Debug\netstandard2.0\Yibi.Repositories.PostgreSql.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.PostgreSql\obj\Debug\netstandard2.0\Repositories.PostgreSql.csproj.CoreCompileInputs.cache
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.PostgreSql\obj\Debug\netstandard2.0\Repositories.PostgreSql.AssemblyInfoInputs.cache
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.PostgreSql\obj\Debug\netstandard2.0\Repositories.PostgreSql.AssemblyInfo.cs
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.PostgreSql\bin\Debug\netstandard2.0\Yibi.Repositories.PostgreSql.pdb
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.PostgreSql\bin\Debug\netstandard2.0\Yibi.Repositories.Core.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.PostgreSql\bin\Debug\netstandard2.0\Yibi.Repositories.Core.pdb
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.PostgreSql\obj\Debug\netstandard2.0\Repositories.PostgreSql.csprojAssemblyReference.cache
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.PostgreSql\obj\Debug\netstandard2.0\Repositories.PostgreSql.csproj.CopyComplete
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.PostgreSql\obj\Debug\netstandard2.0\Yibi.Repositories.PostgreSql.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Repositories.PostgreSql\obj\Debug\netstandard2.0\Yibi.Repositories.PostgreSql.pdb
