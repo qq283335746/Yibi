@@ -6,6 +6,8 @@ using Yibi.Repositories.Core.Entities;
 using Yibi.Repositories.Core.Enums;
 using Yibi.Repositories.MySql;
 using Yibi.Repositories.Sqlite;
+using Yibi.Repositories.PostgreSql;
+using Yibi.Repositories.SqlServer;
 
 namespace Yibi.Web.Extensions
 {
@@ -27,6 +29,12 @@ namespace Yibi.Web.Extensions
                     case DatabaseType.MySql:
                         return provider.GetRequiredService<MySqlContext>();
 
+                    case DatabaseType.PostgreSql:
+                        return provider.GetRequiredService<PostgreSqlContext>();
+
+                    case DatabaseType.SqlServer:
+                        return provider.GetRequiredService<SqlServerContext>();
+
                     default:
                         throw new InvalidOperationException(
                             $"Unsupported database provider: {databaseOptions.Value.Type}");
@@ -45,6 +53,20 @@ namespace Yibi.Web.Extensions
                 var databaseOptions = provider.GetRequiredService<IOptionsSnapshot<DatabaseOptions>>();
 
                 options.UseMySql(databaseOptions.Value.ConnectionString);
+            });
+
+            services.AddDbContext<PostgreSqlContext>((provider, options) =>
+            {
+                var databaseOptions = provider.GetRequiredService<IOptionsSnapshot<DatabaseOptions>>();
+
+                options.UseNpgsql(databaseOptions.Value.ConnectionString);
+            });
+
+            services.AddDbContext<SqlServerContext>((provider, options) =>
+            {
+                var databaseOptions = provider.GetRequiredService<IOptionsSnapshot<DatabaseOptions>>();
+
+                options.UseSqlServer(databaseOptions.Value.ConnectionString);
             });
 
             return services;

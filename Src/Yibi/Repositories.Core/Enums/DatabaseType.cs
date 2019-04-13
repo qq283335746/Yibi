@@ -6,6 +6,7 @@ namespace Yibi.Repositories.Core.Enums
     {
         MySql,
         Sqlite,
+        PostgreSql,
         SqlServer,
     }
 }

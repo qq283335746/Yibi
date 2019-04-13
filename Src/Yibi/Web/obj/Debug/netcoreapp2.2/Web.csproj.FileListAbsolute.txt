@@ -20,3 +20,7 @@ E:\MyWorkspace\Temp\Yibi\Src\Yibi\Web\obj\Debug\netcoreapp2.2\Yibi.Web.pdb
 E:\MyWorkspace\Temp\Yibi\Src\Yibi\Web\bin\Debug\netcoreapp2.2\appsettings.json
 E:\MyWorkspace\Temp\Yibi\Src\Yibi\Web\bin\Debug\netcoreapp2.2\Yibi.Repositories.Sqlite.dll
 E:\MyWorkspace\Temp\Yibi\Src\Yibi\Web\bin\Debug\netcoreapp2.2\Yibi.Repositories.Sqlite.pdb
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Web\bin\Debug\netcoreapp2.2\Yibi.Repositories.PostgreSql.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Web\bin\Debug\netcoreapp2.2\Yibi.Repositories.SqlServer.dll
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Web\bin\Debug\netcoreapp2.2\Yibi.Repositories.PostgreSql.pdb
+E:\MyWorkspace\Temp\Yibi\Src\Yibi\Web\bin\Debug\netcoreapp2.2\Yibi.Repositories.SqlServer.pdb
