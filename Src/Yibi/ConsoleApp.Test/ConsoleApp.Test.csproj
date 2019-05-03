@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>Yibi.ConsoleApp.Test</AssemblyName>
+    <RootNamespace>Yibi.ConsoleApp.Test</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Converter\Converter.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Yibi.Converter</AssemblyName>
+    <RootNamespace>Yibi.Converter</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Open-Xml-PowerTools" Version="4.4.0" />
+  </ItemGroup>
+
+</Project>
