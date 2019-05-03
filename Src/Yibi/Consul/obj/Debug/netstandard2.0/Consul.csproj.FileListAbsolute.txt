@@ -1,9 +1,0 @@
-E:\MyWorkspace\Temp\Yibi\Src\Yibi\Consul\bin\Debug\netstandard2.0\Yibi.Consul.deps.json
-E:\MyWorkspace\Temp\Yibi\Src\Yibi\Consul\bin\Debug\netstandard2.0\Yibi.Consul.dll
-E:\MyWorkspace\Temp\Yibi\Src\Yibi\Consul\obj\Debug\netstandard2.0\Consul.csproj.CoreCompileInputs.cache
-E:\MyWorkspace\Temp\Yibi\Src\Yibi\Consul\obj\Debug\netstandard2.0\Consul.AssemblyInfoInputs.cache
-E:\MyWorkspace\Temp\Yibi\Src\Yibi\Consul\obj\Debug\netstandard2.0\Consul.AssemblyInfo.cs
-E:\MyWorkspace\Temp\Yibi\Src\Yibi\Consul\obj\Debug\netstandard2.0\Consul.csprojAssemblyReference.cache
-E:\MyWorkspace\Temp\Yibi\Src\Yibi\Consul\bin\Debug\netstandard2.0\Yibi.Consul.pdb
-E:\MyWorkspace\Temp\Yibi\Src\Yibi\Consul\obj\Debug\netstandard2.0\Yibi.Consul.dll
-E:\MyWorkspace\Temp\Yibi\Src\Yibi\Consul\obj\Debug\netstandard2.0\Yibi.Consul.pdb
