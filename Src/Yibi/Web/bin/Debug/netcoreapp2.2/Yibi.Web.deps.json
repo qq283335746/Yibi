@@ -5442,7 +5442,7 @@
     "System.Security.Claims/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-P/+BR/2lnc4PNDHt/TPBAWHVMLMRHsyYZbU1NphW4HIWzCggz8mJbTQQ3MKljFE7LS3WagmVFuBgoLcFzYXlkA==",
+      "sha512": "sha512-0ZZLvVF0vthnqWVWqH2C7Zom0wNuW7QDs2T2wQBi4/F4F2AQ92MCGOHA3YJO4jRmzU5L8MuzyFDVdVKlmpHR1w==",
       "path": "system.security.claims/4.3.0",
       "hashPath": "system.security.claims.4.3.0.nupkg.sha512"
     },
@@ -5519,7 +5519,7 @@
     "System.Security.Principal/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-I1tkfQlAoMM2URscUtpcRo/hX0jinXx6a/KUtEQoz3owaYwl3qwsO8cbzYVVnjxrzxjHo3nJC+62uolgeGIS9A==",
+      "sha512": "sha512-JPQVbnJ5l1BFdNrImMum6ydDuiXD8P3lFfAUqsEnJmu/ckY3eWcJd91PpJl8LO8gc5iKudI6e8l64nNMl8eYiA==",
       "path": "system.security.principal/4.3.0",
       "hashPath": "system.security.principal.4.3.0.nupkg.sha512"
     },

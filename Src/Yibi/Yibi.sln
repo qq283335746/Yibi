@@ -17,11 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories.Core", "Reposi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories.Sqlite", "Repositories.Sqlite\Repositories.Sqlite.csproj", "{B94903E0-CE63-47D9-984B-8012F4BC7017}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{C763C139-3A17-491E-98B2-979459FB4480}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{C763C139-3A17-491E-98B2-979459FB4480}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories.PostgreSql", "Repositories.PostgreSql\Repositories.PostgreSql.csproj", "{FD6EE6BB-74AC-4BF1-9E60-493326D8B805}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories.PostgreSql", "Repositories.PostgreSql\Repositories.PostgreSql.csproj", "{FD6EE6BB-74AC-4BF1-9E60-493326D8B805}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories.SqlServer", "Repositories.SqlServer\Repositories.SqlServer.csproj", "{27EB98A7-C2E5-4947-B423-A612F0BF1DE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories.SqlServer", "Repositories.SqlServer\Repositories.SqlServer.csproj", "{27EB98A7-C2E5-4947-B423-A612F0BF1DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consul", "Consul\Consul.csproj", "{69B0BC23-3511-456B-BF5E-2EFBDDABE6B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{27EB98A7-C2E5-4947-B423-A612F0BF1DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27EB98A7-C2E5-4947-B423-A612F0BF1DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27EB98A7-C2E5-4947-B423-A612F0BF1DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B0BC23-3511-456B-BF5E-2EFBDDABE6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B0BC23-3511-456B-BF5E-2EFBDDABE6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B0BC23-3511-456B-BF5E-2EFBDDABE6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B0BC23-3511-456B-BF5E-2EFBDDABE6B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
