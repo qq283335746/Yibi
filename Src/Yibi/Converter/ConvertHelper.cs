@@ -29,6 +29,9 @@ namespace Yibi.Converter
                     case "Consul":
                         items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + "分布式架构之Consul" });
                         break;
+                    case "Eureka":
+                        items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + "分布式架构之Eureka" });
+                        break;
                     default:
                         break;
                 }
