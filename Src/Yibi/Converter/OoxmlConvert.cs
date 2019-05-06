@@ -14,8 +14,11 @@ namespace Yibi.Converter
         /// </summary>
         public static void RunTest()
         {
-            var wordPath = @"E:\MyWorkspace\Temp\qq283335746.github.io\docs\Index.docx";
-            var htmlPath = WordToHtml(wordPath, "Yibi chen 首页");
+            var sources = ConvertHelper.GetSources();
+            foreach(var item in sources)
+            {
+                WordToHtml(item.FilePath, item.PageTitle);
+            }
         }
 
         public static string WordToHtml(string sourcePath, string pageTitle)
@@ -54,7 +57,7 @@ namespace Yibi.Converter
             var imageCounter = 0;
             HtmlConverterSettings settings = new HtmlConverterSettings()
             {
-                AdditionalCss = "body { position: relative;left: 50%;transform: translateX(-50%);}",
+                //AdditionalCss = "body { position: relative;left: 50%;transform: translateX(-50%);}",
                 PageTitle = pageTitle,
                 FabricateCssClasses = true,
                 CssClassPrefix = "pt-",

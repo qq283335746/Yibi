@@ -13,7 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Repositories.Core\Repositories.Core.csproj" />
+    <ProjectReference Include="..\XCore\XCore.csproj" />
+    <ProjectReference Include="..\Core.Server\Core.Server.csproj" />
     <ProjectReference Include="..\Repositories.MySql\Repositories.MySql.csproj" />
     <ProjectReference Include="..\Repositories.PostgreSql\Repositories.PostgreSql.csproj" />
     <ProjectReference Include="..\Repositories.Sqlite\Repositories.Sqlite.csproj" />

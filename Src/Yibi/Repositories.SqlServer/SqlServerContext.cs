@@ -1,7 +1,7 @@
 using System.Data.SqlClient;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using Yibi.Repositories.Core.Entities;
+using Yibi.Core.Entities;
 
 namespace Yibi.Repositories.SqlServer
 {

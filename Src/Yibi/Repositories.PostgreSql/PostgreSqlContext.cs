@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Npgsql;
-using Yibi.Repositories.Core.Entities;
+using Yibi.Core.Entities;
 
 namespace Yibi.Repositories.PostgreSql
 {

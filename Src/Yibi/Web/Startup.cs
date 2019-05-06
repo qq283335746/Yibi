@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Yibi.Repositories.Core.Extensions;
+using Yibi.Core.Server.Extensions;
 using Yibi.Web.Extensions;
 
 namespace Yibi.Web
@@ -25,7 +25,7 @@ namespace Yibi.Web
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddYibiRepositories(Configuration);
+            services.AddYibiRepositories(Configuration, httpServices: true);
             services.AddMultiDbContext();
         }
 
@@ -40,6 +40,11 @@ namespace Yibi.Web
             app.UseYibiEfCoreMigrate(Configuration);
 
             //app.UseForwardedHeaders();
+
+            app.UseMvc(routes =>
+            {
+                routes.MapServiceRoutes();
+            });
 
             app.Run(async (context) =>
             {

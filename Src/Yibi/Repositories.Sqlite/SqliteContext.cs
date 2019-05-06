@@ -1,6 +1,6 @@
 ﻿using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
-using Yibi.Repositories.Core.Entities;
+using Yibi.Core.Entities;
 
 namespace Yibi.Repositories.Sqlite
 {

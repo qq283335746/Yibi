@@ -19,7 +19,7 @@ namespace Yibi.Repositories.PostgreSql.Migrations
                 .HasAnnotation("ProductVersion", "2.2.3-servicing-35854")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
-            modelBuilder.Entity("Yibi.Repositories.Core.Entities.PackageInfo", b =>
+            modelBuilder.Entity("Yibi.Core.Entities.PackageInfo", b =>
                 {
                     b.Property<int>("Key")
                         .ValueGeneratedOnAdd();

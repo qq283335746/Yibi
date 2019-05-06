@@ -17,7 +17,7 @@ namespace Yibi.Repositories.Sqlite.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "2.2.3-servicing-35854");
 
-            modelBuilder.Entity("Yibi.Repositories.Core.Entities.PackageInfo", b =>
+            modelBuilder.Entity("Yibi.Core.Entities.PackageInfo", b =>
                 {
                     b.Property<int>("Key")
                         .ValueGeneratedOnAdd();

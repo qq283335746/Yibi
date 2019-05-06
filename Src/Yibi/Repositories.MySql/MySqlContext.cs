@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using MySql.Data.MySqlClient;
-using Yibi.Repositories.Core.Entities;
+using Yibi.Core.Entities;
 
 namespace Yibi.Repositories.MySql
 {

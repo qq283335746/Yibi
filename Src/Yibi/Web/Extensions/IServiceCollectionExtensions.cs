@@ -2,17 +2,36 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
-using Yibi.Repositories.Core.Entities;
-using Yibi.Repositories.Core.Enums;
+using Yibi.Core.Entities;
+using Yibi.Core.Enums;
 using Yibi.Repositories.MySql;
 using Yibi.Repositories.Sqlite;
 using Yibi.Repositories.PostgreSql;
 using Yibi.Repositories.SqlServer;
+using Yibi.Core.Extensions;
+using Microsoft.Extensions.Configuration;
+using Yibi.Core.Server.Extensions;
+using Yibi.Core.Services;
 
 namespace Yibi.Web.Extensions
 {
     public static class IServiceCollectionExtensions
     {
+        public static IServiceCollection AddYibiRepositories(this IServiceCollection services, IConfiguration configuration, bool httpServices = false)
+        {
+            services.ConfigureAndValidate<ConfigOptions>(configuration);
+            services.ConfigureAndValidate<DatabaseOptions>(configuration.GetSection(nameof(ConfigOptions.Database)));
+
+            if (httpServices)
+            {
+                services.ConfigureHttpServices();
+            }
+
+            services.AddScoped<IPackageService, PackageService>();
+
+            return services;
+        }
+
         public static IServiceCollection AddMultiDbContext(this IServiceCollection services)
         {
             if (services == null) throw new ArgumentNullException(nameof(services));

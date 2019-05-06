@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eureka.Test", "Eureka.Test\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories.MySql", "Repositories.MySql\Repositories.MySql.csproj", "{AE5DA1C3-9C8C-42FA-BE38-C9078889F1B4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories.Core", "Repositories.Core\Repositories.Core.csproj", "{AD1C74E4-6C68-43BC-B660-9B7F63296DA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XCore", "XCore\XCore.csproj", "{AD1C74E4-6C68-43BC-B660-9B7F63296DA1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories.Sqlite", "Repositories.Sqlite\Repositories.Sqlite.csproj", "{B94903E0-CE63-47D9-984B-8012F4BC7017}"
 EndProject
@@ -23,11 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories.PostgreSql", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories.SqlServer", "Repositories.SqlServer\Repositories.SqlServer.csproj", "{27EB98A7-C2E5-4947-B423-A612F0BF1DE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consul", "Consul\Consul.csproj", "{69B0BC23-3511-456B-BF5E-2EFBDDABE6B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consul", "Consul\Consul.csproj", "{69B0BC23-3511-456B-BF5E-2EFBDDABE6B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converter", "Converter\Converter.csproj", "{32FEFD80-E90C-4CF6-BEC3-E672125FBE35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Converter", "Converter\Converter.csproj", "{32FEFD80-E90C-4CF6-BEC3-E672125FBE35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Test", "ConsoleApp.Test\ConsoleApp.Test.csproj", "{B82488DF-A0DE-4B62-8E55-B6261A1E6C7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Test", "ConsoleApp.Test\ConsoleApp.Test.csproj", "{B82488DF-A0DE-4B62-8E55-B6261A1E6C7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Server", "Core.Server\Core.Server.csproj", "{CCCAF50C-4C8B-41E1-BB4E-49E67572BCFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{B82488DF-A0DE-4B62-8E55-B6261A1E6C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B82488DF-A0DE-4B62-8E55-B6261A1E6C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B82488DF-A0DE-4B62-8E55-B6261A1E6C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCCAF50C-4C8B-41E1-BB4E-49E67572BCFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCCAF50C-4C8B-41E1-BB4E-49E67572BCFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCCAF50C-4C8B-41E1-BB4E-49E67572BCFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCCAF50C-4C8B-41E1-BB4E-49E67572BCFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
