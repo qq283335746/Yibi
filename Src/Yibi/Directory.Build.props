@@ -1,0 +1,21 @@
+<Project>
+
+  <PropertyGroup>
+    <Authors>yibei chen</Authors>
+    <Company>yibei chen</Company>
+    <Version>1.2.2</Version>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <LangVersion>latest</LangVersion>
+    <Description></Description>
+  </PropertyGroup>
+
+  <!-- NuGet dependencies shared across projects -->
+  <PropertyGroup>
+    <MicrosoftAspNetCorePackageVersion>2.2.0</MicrosoftAspNetCorePackageVersion>
+    <MicrosoftEntityFrameworkCorePackageVersion>2.2.2</MicrosoftEntityFrameworkCorePackageVersion>
+    <MicrosoftExtensionsPackageVersion>2.2.0</MicrosoftExtensionsPackageVersion>
+  </PropertyGroup>
+
+</Project>
