@@ -3,6 +3,9 @@
   <PropertyGroup>
     <Authors>yibei chen</Authors>
     <Company>yibei chen</Company>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/qq283335746/Yibi</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/qq283335746/Yibi</RepositoryUrl>
     <Version>1.2.2</Version>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>

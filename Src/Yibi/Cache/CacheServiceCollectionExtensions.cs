@@ -13,6 +13,12 @@ namespace Microsoft.Extensions.DependencyInjection
                 options.InstanceName = "SampleInstance";
             });
 
+            //services.AddDistributedRedisCache(options =>
+            //{
+            //    options.Configuration = "xx.xxx.xx.xxxx:6379,password=aaaaaa";
+            //    options.InstanceName = "SampleInstance";
+            //});
+
             services.AddScoped<ICache, RedisCache>();
 
             return services;

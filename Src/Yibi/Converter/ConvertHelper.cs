@@ -38,6 +38,12 @@ namespace Yibi.Converter
                     case "Apollo":
                         items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + "分布式架构之Apollo（阿波罗）配置中心" });
                         break;
+                    case "Redis":
+                        items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + "分布式架构之Redis" });
+                        break;
+                    case "ElasticSearch":
+                        items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + "分布式架构之ElasticSearch" });
+                        break;
                     case "NuGet":
                         items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + ".Net开发之NuGet" });
                         break;
