@@ -47,6 +47,9 @@ namespace Yibi.Converter
                     case "NuGet":
                         items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + ".Net开发之NuGet" });
                         break;
+                    case "CSharpDotNet":
+                        items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + "C#/.NET编程官方指南、进阶" });
+                        break;
                     default:
                         break;
                 }
