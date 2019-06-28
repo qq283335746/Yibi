@@ -35,6 +35,9 @@ namespace Yibi.Converter
                     case "Eureka":
                         items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + "分布式架构之Eureka" });
                         break;
+                    case "Nacos":
+                        items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + "分布式架构之Nacos" });
+                        break;
                     case "Apollo":
                         items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + "分布式架构之Apollo（阿波罗）配置中心" });
                         break;
@@ -48,7 +51,31 @@ namespace Yibi.Converter
                         items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + ".Net开发之NuGet" });
                         break;
                     case "CSharpDotNet":
-                        items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + "C#/.NET编程官方指南、进阶" });
+                        items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + "C#/.NET技术文档" });
+                        break;
+                    case "DotNetCore":
+                        items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + "C#/.NET Core技术文档" });
+                        break;
+                    case "Sqlite":
+                        items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + "关于Sqlite使用与问题集锦" });
+                        break;
+                    case "MySql":
+                        items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + "关于MySql使用与问题集锦" });
+                        break;
+                    case "PostgreSql":
+                        items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + "关于PostgreSql使用与问题集锦" });
+                        break;
+                    case "Wms":
+                        items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + "智能仓储配送平台（WMS）" });
+                        break;
+                    case "Windows":
+                        items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + "Windows组件编程相关" });
+                        break;
+                    case "Linux":
+                        items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + "Windows组件编程相关" });
+                        break;
+                    case "GhPages":
+                        items.Add(new WordToHtmlInfo { FilePath = filePath, PageName = fileName, PageTitle = prefix + "GitHub Pages使用相关" });
                         break;
                     default:
                         break;
