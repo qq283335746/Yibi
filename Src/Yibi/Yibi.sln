@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Test", "ConsoleA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Server", "Core.Server\Core.Server.csproj", "{CCCAF50C-4C8B-41E1-BB4E-49E67572BCFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackExchangeRedis", "StackExchangeRedis\StackExchangeRedis.csproj", "{9691115C-141C-41DB-8F03-66A10A2260DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{CCCAF50C-4C8B-41E1-BB4E-49E67572BCFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCCAF50C-4C8B-41E1-BB4E-49E67572BCFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCCAF50C-4C8B-41E1-BB4E-49E67572BCFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9691115C-141C-41DB-8F03-66A10A2260DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9691115C-141C-41DB-8F03-66A10A2260DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9691115C-141C-41DB-8F03-66A10A2260DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9691115C-141C-41DB-8F03-66A10A2260DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
