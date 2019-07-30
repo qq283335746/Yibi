@@ -8,6 +8,7 @@ using Yibi.Repositories.MySql;
 using Yibi.Repositories.Sqlite;
 using Yibi.Repositories.PostgreSql;
 using Yibi.Repositories.SqlServer;
+using Yibi.Repositories.LiteDB;
 using Yibi.Core.Extensions;
 using Microsoft.Extensions.Configuration;
 using Yibi.Core.Server.Extensions;
@@ -87,6 +88,8 @@ namespace Yibi.Web.Extensions
 
                 options.UseSqlServer(databaseOptions.Value.ConnectionString);
             });
+
+            services.AddLiteDb(@"Yibi.ldb");
 
             return services;
         }

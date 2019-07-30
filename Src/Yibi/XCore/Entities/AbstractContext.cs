@@ -16,7 +16,7 @@ namespace Yibi.Core.Entities
 
         public DbSet<PackageInfo> Packages { get; set; }
 
-        public Task<int> SaveChangesAsync() => SaveChangesAsync(default(CancellationToken));
+        public Task<int> SaveChangesAsync() => SaveChangesAsync(default);
 
         public abstract bool IsUniqueConstraintViolationException(DbUpdateException exception);
 

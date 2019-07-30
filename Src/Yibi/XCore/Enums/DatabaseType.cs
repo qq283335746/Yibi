@@ -8,5 +8,6 @@ namespace Yibi.Core.Enums
         Sqlite,
         PostgreSql,
         SqlServer,
+        LiteDb,
     }
 }
