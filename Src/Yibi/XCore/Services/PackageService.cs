@@ -14,7 +14,7 @@ namespace Yibi.Core.Services
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        public async Task<int> AddAsync(PackageInfo package)
+        public async Task<int> AddAsync(Packages package)
         {
             try
             {

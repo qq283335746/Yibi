@@ -25,7 +25,7 @@ namespace Yibi.Repositories.Sqlite
         {
             base.OnModelCreating(builder);
 
-            builder.Entity<PackageInfo>()
+            builder.Entity<Packages>()
                 .Property(p => p.Id)
                 .HasColumnType("TEXT COLLATE NOCASE");
         }

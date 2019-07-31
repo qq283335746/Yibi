@@ -14,7 +14,9 @@ namespace Yibi.Core.Entities
             : base(options)
         { }
 
-        public DbSet<PackageInfo> Packages { get; set; }
+        public DbSet<Students> Students { get; set; }
+
+        public DbSet<Packages> Packages { get; set; }
 
         public Task<int> SaveChangesAsync() => SaveChangesAsync(default);
 
@@ -24,10 +26,11 @@ namespace Yibi.Core.Entities
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            builder.Entity<PackageInfo>(BuildPackageEntity);
+            builder.Entity<Packages>(BuildPackageEntity);
+            builder.Entity<Students>(BuildStudentsEntity);
         }
 
-        private void BuildPackageEntity(EntityTypeBuilder<PackageInfo> package)
+        private void BuildPackageEntity(EntityTypeBuilder<Packages> package)
         {
             package.HasKey(p => p.Key);
             package.HasIndex(p => p.Id);
@@ -38,6 +41,12 @@ namespace Yibi.Core.Entities
 
             package.Property(p => p.Name).HasMaxLength(MaxNameLength);
             
+        }
+
+        private void BuildStudentsEntity(EntityTypeBuilder<Students> package)
+        {
+            package.HasKey(p => p.Id);
+            package.HasIndex(p => p.Id);
         }
     }
 }

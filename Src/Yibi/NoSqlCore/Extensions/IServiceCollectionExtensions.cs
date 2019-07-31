@@ -1,23 +1,17 @@
-﻿using System;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using Yibi.Core.Configuration;
-using Yibi.Core.Services;
-using Yibi.Core.Entities;
+using Yibi.NoSqlCore.Configuration;
+using Yibi.NoSqlCore.Entities;
 
-namespace Yibi.Core.Extensions
+namespace Yibi.NoSqlCore.Extensions
 {
     public static class IServiceCollectionExtensions
     {
-        public static IServiceCollection AddYibiCore(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddYibiNoSqlCore(this IServiceCollection services, IConfiguration configuration)
         {
             services.ConfigureAndValidate<ConfigOptions>(configuration);
-            services.ConfigureAndValidate<DatabaseOptions>(configuration.GetSection(nameof(ConfigOptions.Database)));
-
-            services.AddScoped<IPackageService, PackageService>();
-
-            services.AddScoped<IStudentService, StudentService>();
+            services.ConfigureAndValidate<DatabaseOptions>(configuration.GetSection(nameof(ConfigOptions.NoSqlDatabase)));
 
             return services;
         }
@@ -29,5 +23,6 @@ namespace Yibi.Core.Extensions
 
             return services;
         }
+        
     }
 }

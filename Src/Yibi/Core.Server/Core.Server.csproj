@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NoSqlCore\NoSqlCore.csproj" />
     <ProjectReference Include="..\XCore\XCore.csproj" />
   </ItemGroup>
 

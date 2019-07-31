@@ -7,7 +7,9 @@ This project contains Yibi's SQLite database provider.
 Add a migration with:
 
 ```
-dotnet ef migrations add MigrationName --context SqliteContext --output-dir Migrations --startup-project ..\Web\Web.csproj
+dotnet ef migrations add MigrationName001 --context SqliteContext --output-dir Migrations --startup-project ..\Web\Web.csproj
+
+dotnet ef migrations remove --context SqliteContext --startup-project ..\Web\Web.csproj
 
 dotnet ef database update --context SqliteContext --startup-project ..\Web\Web.csproj
 ```

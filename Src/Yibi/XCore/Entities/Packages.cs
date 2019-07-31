@@ -2,7 +2,7 @@
 
 namespace Yibi.Core.Entities
 {
-    public class PackageInfo
+    public class Packages
     {
         public int Key { get; set; }
 

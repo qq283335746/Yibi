@@ -30,7 +30,7 @@ namespace Yibi.Repositories.PostgreSql
 
             builder.HasPostgresExtension("citext");
 
-            builder.Entity<PackageInfo>()
+            builder.Entity<Packages>()
                 .Property(p => p.Id)
                 .HasColumnType("citext");
 

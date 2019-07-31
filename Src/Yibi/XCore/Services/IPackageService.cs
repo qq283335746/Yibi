@@ -6,6 +6,6 @@ namespace Yibi.Core.Services
 {
     public interface IPackageService
     {
-        Task<int> AddAsync(PackageInfo package);
+        Task<int> AddAsync(Packages package);
     }
 }

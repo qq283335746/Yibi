@@ -6,6 +6,8 @@ namespace Yibi.Core.Server.Enums
 {
     public enum ResCodeOptions
     {
-        None
+        None,
+        Success=1000,
+        Error=1001
     }
 }

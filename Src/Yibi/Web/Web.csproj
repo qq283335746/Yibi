@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NoSqlCore\NoSqlCore.csproj" />
     <ProjectReference Include="..\Repositories.LiteDB\Repositories.LiteDB.csproj" />
     <ProjectReference Include="..\XCore\XCore.csproj" />
     <ProjectReference Include="..\Core.Server\Core.Server.csproj" />

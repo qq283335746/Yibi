@@ -8,32 +8,32 @@ using Yibi.Repositories.MySql;
 using Yibi.Repositories.Sqlite;
 using Yibi.Repositories.PostgreSql;
 using Yibi.Repositories.SqlServer;
-using Yibi.Repositories.LiteDB;
 using Yibi.Core.Extensions;
 using Microsoft.Extensions.Configuration;
 using Yibi.Core.Server.Extensions;
-using Yibi.Core.Services;
+using Yibi.Repositories.LiteDB.Extensions;
+using Yibi.NoSqlCore.Extensions;
 
 namespace Yibi.Web.Extensions
 {
     public static class IServiceCollectionExtensions
     {
-        public static IServiceCollection AddYibiRepositories(this IServiceCollection services, IConfiguration configuration, bool httpServices = false)
+        public static IServiceCollection AddYibiConfigure(this IServiceCollection services, IConfiguration configuration, bool httpServices = false)
         {
-            services.ConfigureAndValidate<ConfigOptions>(configuration);
-            services.ConfigureAndValidate<DatabaseOptions>(configuration.GetSection(nameof(ConfigOptions.Database)));
+            services.AddYibiCore(configuration);
+            services.AddYibiNoSqlCore(configuration);
+
+            services.AddLiteDb(configuration);
 
             if (httpServices)
             {
                 services.ConfigureHttpServices();
             }
 
-            services.AddScoped<IPackageService, PackageService>();
-
             return services;
         }
 
-        public static IServiceCollection AddMultiDbContext(this IServiceCollection services)
+        public static IServiceCollection AddEfDbContext(this IServiceCollection services)
         {
             if (services == null) throw new ArgumentNullException(nameof(services));
 
@@ -88,8 +88,6 @@ namespace Yibi.Web.Extensions
 
                 options.UseSqlServer(databaseOptions.Value.ConnectionString);
             });
-
-            services.AddLiteDb(@"Yibi.ldb");
 
             return services;
         }

@@ -8,7 +8,9 @@ namespace Yibi.Core.Entities
     {
         DatabaseFacade Database { get; }
 
-        DbSet<PackageInfo> Packages { get; set; }
+        DbSet<Students> Students { get; set; }
+
+        DbSet<Packages> Packages { get; set; }
 
         /// <summary>
         /// Check whether a <see cref="DbUpdateException"/> is due to a SQL unique constraint violation.
