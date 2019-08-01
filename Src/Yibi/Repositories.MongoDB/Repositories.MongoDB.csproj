@@ -1,13 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>Yibi.Repositories.LiteDB</AssemblyName>
-    <RootNamespace>Yibi.Repositories.LiteDB</RootNamespace>
+    <AssemblyName>Yibi.Repositories.MongoDB</AssemblyName>
+    <RootNamespace>Yibi.Repositories.MongoDB</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="LiteDB" Version="4.1.4" />
+    <PackageReference Include="MongoDB.Driver" Version="2.8.1" />
   </ItemGroup>
 
   <ItemGroup>

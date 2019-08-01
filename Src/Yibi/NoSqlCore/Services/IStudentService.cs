@@ -11,5 +11,9 @@ namespace Yibi.NoSqlCore.Services
         Task<IEnumerable<Students>> GetAllAsync();
 
         Task<int> AddAsync(Students studentInfo);
+
+        Task<int> EditAsync(Students studentInfo);
+
+        Task<int> DeleteAsync(Guid id);
     }
 }

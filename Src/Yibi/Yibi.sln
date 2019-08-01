@@ -35,9 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackExchangeRedis", "Stack
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories.LiteDB", "Repositories.LiteDB\Repositories.LiteDB.csproj", "{01F9166F-5B59-471C-96B4-AF7B61436583}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSqlCore", "NoSqlCore\NoSqlCore.csproj", "{42BE3A1F-A15B-428E-8954-F3E8E754AC65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoSqlCore", "NoSqlCore\NoSqlCore.csproj", "{42BE3A1F-A15B-428E-8954-F3E8E754AC65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSqlWeb", "NoSqlWeb\NoSqlWeb.csproj", "{BD892EC4-E4B4-4783-B3CF-5CE7E64065AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories.MongoDB", "Repositories.MongoDB\Repositories.MongoDB.csproj", "{EF2EF0A9-CB67-40F1-ABB6-9AE53A541404}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,10 +113,10 @@ Global
 		{42BE3A1F-A15B-428E-8954-F3E8E754AC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42BE3A1F-A15B-428E-8954-F3E8E754AC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42BE3A1F-A15B-428E-8954-F3E8E754AC65}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BD892EC4-E4B4-4783-B3CF-5CE7E64065AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD892EC4-E4B4-4783-B3CF-5CE7E64065AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD892EC4-E4B4-4783-B3CF-5CE7E64065AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BD892EC4-E4B4-4783-B3CF-5CE7E64065AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2EF0A9-CB67-40F1-ABB6-9AE53A541404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2EF0A9-CB67-40F1-ABB6-9AE53A541404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2EF0A9-CB67-40F1-ABB6-9AE53A541404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2EF0A9-CB67-40F1-ABB6-9AE53A541404}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

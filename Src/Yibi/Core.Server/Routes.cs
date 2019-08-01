@@ -17,5 +17,7 @@ namespace Yibi.Core.Server
         public const string EfDbTestHelloWorldRouteName = "EfDbTest-HelloWorld";
 
         public const string EfDbTestGetAllRouteName = "EfDbTest-GetAll";
+
+        public const string MongoDbTestRouteName = "MongoDbTest";
     }
 }

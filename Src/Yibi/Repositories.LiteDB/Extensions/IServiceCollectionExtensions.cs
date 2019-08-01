@@ -9,7 +9,7 @@ namespace Yibi.Repositories.LiteDB.Extensions
     {
         public static void AddLiteDb(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddTransient<LiteDbContext, LiteDbContext>();
+            services.AddTransient<ILiteDbContext, LiteDbContext>();
             //services.Configure<LiteDbConfig>(options => options.DatabasePath = configuration.GetSection("Database:ConnectionString").Value);
 
             services.AddScoped<IStudentService, StudentService>();

@@ -43,6 +43,11 @@ namespace Yibi.Core.Server.Extensions
               template: "api/v1/EfDb/{Action}",
               defaults: new { controller = "EfDbTest", action = "{Action}" });
 
+            routes.MapRoute(
+             name: Routes.MongoDbTestRouteName,
+             template: "api/v1/MongoDb/{Action}",
+             defaults: new { controller = "MongoDbTest", action = "{Action}" });
+
             return routes;
         }
     }

@@ -9,5 +9,7 @@ namespace Yibi.NoSqlCore.Entities
 
         [Required]
         public string ConnectionString { get; set; }
+
+        public string InstanceName { get; set; }
     }
 }

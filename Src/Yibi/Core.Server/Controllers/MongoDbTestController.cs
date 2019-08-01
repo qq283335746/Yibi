@@ -1,19 +1,18 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 using Yibi.Core.Server.Enums;
 using Yibi.NoSqlCore.Services;
 using Yibi.NoSqlCore.Tables;
 
 namespace Yibi.Core.Server.Controllers
 {
-    public class LiteDbTestController: Controller
+    public class MongoDbTestController : Controller
     {
         private readonly IStudentService _studentService;
 
-        public LiteDbTestController(IStudentService studentService)
+        public MongoDbTestController(IStudentService studentService)
         {
             _studentService = studentService;
         }
@@ -22,7 +21,7 @@ namespace Yibi.Core.Server.Controllers
         public async Task<string> Get()
         {
             var result = await Task.Run(() => {
-                return "this is LiteDbTest default!";
+                return "this is MongoDbTest default!";
             });
 
             return result;
@@ -31,8 +30,8 @@ namespace Yibi.Core.Server.Controllers
         [HttpGet]
         public async Task<string> HelloWorld()
         {
-            var result = await Task.Run(()=>{
-                return "this is HelloWorld!";
+            var result = await Task.Run(() => {
+                return "this is MongoDbTest HelloWorld!";
             });
 
             return result;
@@ -49,7 +48,7 @@ namespace Yibi.Core.Server.Controllers
             }
             catch(Exception ex)
             {
-                return new ResponseResult<IEnumerable<Students>> { ResCode = ResCodeOptions.Error, Message = ex.Message };
+                return new ResponseResult<IEnumerable<Students>> { ResCode = ResCodeOptions.Error, Message=ex.Message };
             }
         }
 
@@ -62,7 +61,7 @@ namespace Yibi.Core.Server.Controllers
 
                 var effect = await _studentService.AddAsync(studentInfo);
 
-                return new ResponseResult<int> { ResCode = ResCodeOptions.Success,Data = effect };
+                return new ResponseResult<int> { ResCode = ResCodeOptions.Success };
             }
             catch(Exception ex)
             {

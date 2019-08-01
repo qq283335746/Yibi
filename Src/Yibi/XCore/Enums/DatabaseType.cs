@@ -9,5 +9,6 @@ namespace Yibi.Core.Enums
         PostgreSql,
         SqlServer,
         LiteDb,
+        MongoDb,
     }
 }
