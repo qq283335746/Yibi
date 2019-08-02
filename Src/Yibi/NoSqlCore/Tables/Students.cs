@@ -6,6 +6,11 @@ namespace Yibi.NoSqlCore.Tables
 {
     public class Students
     {
+        public Students()
+        {
+            Id = Guid.NewGuid();
+        }
+
         public Guid Id { get; set; }
 
         public string Sno { get; set; }

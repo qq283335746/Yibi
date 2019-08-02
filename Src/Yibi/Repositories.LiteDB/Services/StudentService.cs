@@ -31,7 +31,6 @@ namespace Yibi.Repositories.LiteDB.Services
         {
             var result = await Task.Run(() =>
             {
-                studentInfo.Id = Guid.NewGuid();
                 _context.Students.Insert(studentInfo);
 
                 return 1;
