@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Converter\Converter.csproj" />
+    <ProjectReference Include="..\NetMQ\NetMQ.csproj" />
   </ItemGroup>
 
 </Project>

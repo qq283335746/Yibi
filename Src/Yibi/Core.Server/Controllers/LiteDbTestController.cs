@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -13,7 +14,7 @@ namespace Yibi.Core.Server.Controllers
     {
         private readonly IStudentService _studentService;
 
-        public LiteDbTestController(IStudentService studentService)
+        public LiteDbTestController(IStudentService studentService,IServiceProvider provider)
         {
             _studentService = studentService;
         }

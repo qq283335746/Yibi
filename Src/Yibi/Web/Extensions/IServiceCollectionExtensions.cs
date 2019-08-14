@@ -11,7 +11,7 @@ using Yibi.Repositories.SqlServer;
 using Yibi.Core.Extensions;
 using Microsoft.Extensions.Configuration;
 using Yibi.Core.Server.Extensions;
-//using Yibi.Repositories.LiteDB.Extensions;
+using Yibi.Repositories.LiteDB.Extensions;
 using Yibi.NoSqlCore.Extensions;
 using Yibi.NoSqlCore.Services;
 using Yibi.Repositories.MongoDB.Extensions;
@@ -25,7 +25,7 @@ namespace Yibi.Web.Extensions
             services.AddYibiCore(configuration);
             services.AddYibiNoSqlCore(configuration);
 
-            //services.AddLiteDb(configuration);
+            services.AddLiteDb(configuration);
             services.AddMongoDb(configuration);
 
             if (httpServices)
