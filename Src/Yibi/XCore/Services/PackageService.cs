@@ -18,7 +18,7 @@ namespace Yibi.Core.Services
         {
             try
             {
-                _context.Packages.Add(package);
+                //_context.Packages.Add(package);
 
                 return await _context.SaveChangesAsync();
             }

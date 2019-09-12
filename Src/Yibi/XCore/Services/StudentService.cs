@@ -18,14 +18,16 @@ namespace Yibi.Core.Services
 
         public async Task<int> AddAsync(Students studentInfo)
         {
-            await _context.Students.AddAsync(studentInfo);
+            //await _context.Students.AddAsync(studentInfo);
 
             return await _context.SaveChangesAsync();
         }
 
         public async Task<IEnumerable<Students>> GetAllAsync()
         {
-            return await _context.Students.ToListAsync();
+            //return await _context.Students.ToListAsync();
+
+            return null;
         }
     }
 }

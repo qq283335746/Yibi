@@ -14,7 +14,7 @@ namespace Yibi.Core.Server.Controllers
     {
         private readonly IStudentService _studentService;
 
-        public LiteDbTestController(IStudentService studentService,IServiceProvider provider)
+        public LiteDbTestController(IStudentService studentService)
         {
             _studentService = studentService;
         }
