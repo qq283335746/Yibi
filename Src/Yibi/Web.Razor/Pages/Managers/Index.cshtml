@@ -1,0 +1,37 @@
+﻿@page
+@model Yibi.Web.Pages.Managers.IndexModel
+@{
+    ViewBag.Title = "首页";
+}
+
+<div class="easyui-layout" data-options="fit:true">
+    <div id="header" class="header" data-options="region:'north',title:'',split:true" style="height:69px;overflow:hidden;background:#4a8bfc;">
+        <div class="pdl5 sitetitle">
+            后台管理系统
+        </div>
+        <div class="lvUser">
+            管理员
+        </div>
+        <span class="clr"></span>
+    </div>
+    <div id="footer" data-options="region:'south',title:'',split:true" style="height:38px; padding:5px;">
+        <div class="aa">
+            &copy; 2019 - 企业后台管理系统
+        </div>
+    </div>
+    <div id="west" data-options="region:'west',title:'菜单导航',split:true" style="width:200px; padding:5px;">
+        <div id="accUcMenu" class="easyui-accordion acc" data-options="fit:true,onSelect:sitemenus.onAccSelect,onAdd:sitemenus.onAccAdd"></div>
+    </div>
+    <div id="pageMain" data-options="region:'center',title:''" style="padding-left:5px;">
+        <div id="tt" class="easyui-tabs" data-options="fit:true,border:false,plain:true,tabHeight:36">
+            <div title="首页" style="padding:20px;display:none;"></div>
+        </div>
+    </div>
+</div>
+<div id="dlgWaiting" data-options="closed:true,modal:true,collapsible:false,border:false" title="" style="width:32px;height:32px;padding:0;margin:0;"></div>
+
+<script type="text/javascript">
+        $(function () {
+            sitemenus.init();
+        })
+</script>

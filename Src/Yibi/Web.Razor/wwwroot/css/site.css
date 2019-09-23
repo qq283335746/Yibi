@@ -1,0 +1,97 @@
+﻿
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clr {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+.dlgloading {
+    position: absolute;
+    z-index: 91000;
+    top: 0;
+    left: 0;
+    background: white url('../images/bigloading.gif') no-repeat center 40%;
+    width: 100%;
+    height: 100%;
+    _height: 800px;
+    display: none;
+}
+
+/*header*/
+#header * {
+    color: #FFF;
+}
+
+#header .lvUser {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.sitetitle {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    line-height: 58px;
+    text-align: center;
+    width: 100%;
+}
+/*footer*/
+#footer .aa {
+    text-align: center;
+}
+
+/*菜单*/
+#west .accordion-body li {
+    padding: 3px 0;
+}
+
+#west .accordion-body li a {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.menus .tree-file {
+    display: none;
+}
+
+.menus .tree-node {
+    font-size: 14px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.acc .menus .tree-expanded {
+    margin-left: 15px;
+}
+
+.acc .menus .tree-collapsed {
+    margin-left: 15px;
+}
+
+.acc .menus .tree-node-selected {
+    background-color: #fff;
+}
+
+.acc .menus .tree-node-selected .tree-title {
+    color: #008800;
+    font-size: 16px;
+}
+
+.accordion .accordion-header-selected {
+    background: #4a8bfc;
+}
+
+.accordion .accordion-header-selected .panel-title {
+    color: #fff;
+}
