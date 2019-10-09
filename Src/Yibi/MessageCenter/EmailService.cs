@@ -4,6 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MailKit.Net.Smtp;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using MimeKit;
 
 namespace Yibi.MessageCenter
@@ -13,8 +14,9 @@ namespace Yibi.MessageCenter
         private readonly EmailSettingInfo _emailSetting;
         private readonly ILogger<EmailService> _logger;
 
-        public EmailService(ILogger<EmailService> logger)
+        public EmailService(IOptions<EmailSettingInfo> emailSettings, ILogger<EmailService> logger)
         {
+            _emailSetting = emailSettings.Value;
             _logger = logger;
         }
 
