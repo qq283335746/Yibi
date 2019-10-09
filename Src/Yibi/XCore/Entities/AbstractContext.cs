@@ -14,7 +14,9 @@ namespace Yibi.Core.Entities
             : base(options)
         { }
 
-        public DbSet<StaffInfo> Staffs { get; set; }
+        //public DbSet<DepartmentInfo> Departments { get; set; }
+
+        //public DbSet<StaffInfo> Staffs { get; set; }
 
         //public DbSet<Students> Students { get; set; }
 
@@ -28,24 +30,110 @@ namespace Yibi.Core.Entities
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            builder.Entity<StaffInfo>(BuildStaffEntity);
+            builder.Entity<ResourceGroupAccountInfo>(BuildResourceGroupAccountEntity);
+            builder.Entity<TypeNameInfo>(BuildTypeNameEntity);
+            builder.Entity<ContactInfo>(BuildContactEntity);
+            builder.Entity<MessageTemplateInfo>(BuildMessageTemplateEntity);
+            builder.Entity<ContactMessageNoticeInfo>(BuildContactMessageNoticeEntity);
+
+            //builder.Entity<DepartmentInfo>(BuildDepartmentEntity);
+            //builder.Entity<StaffInfo>(BuildStaffEntity);
+            //builder.Entity<ProcessInstanceInfo>(BuildProcessInstanceEntity);
+
             //builder.Entity<Packages>(BuildPackageEntity);
             //builder.Entity<Students>(BuildStudentsEntity);
         }
 
-        private void BuildStaffEntity(EntityTypeBuilder<StaffInfo> staff)
+        #region SGroupDb Server=10.168.95.225;Database=SGroupDb;Uid=yibi;Pwd=D640ms0GuuIZ46tOsU6o
+
+        private void BuildResourceGroupAccountEntity(EntityTypeBuilder<ResourceGroupAccountInfo> entity)
         {
-            staff.ToTable("Staff");
-            staff.HasKey(p => p.Id);
-            staff.HasIndex(p => p.Id);
-
-            staff.Property(p => p.Id)
-               .HasMaxLength(MaxNameLength)
+            entity.ToTable("ResourceGroupAccount");
+            entity.HasKey(p => p.Id);
+            entity.HasIndex(p => p.Id);
+            entity.Property(p => p.Id)
                .IsRequired();
-
-            staff.Property(p => p.Name).HasMaxLength(MaxNameLength);
-
         }
+
+        private void BuildTypeNameEntity(EntityTypeBuilder<TypeNameInfo> entity)
+        {
+            entity.ToTable("TypeNames");
+            entity.HasKey(p => p.Id);
+            entity.HasIndex(p => p.Id);
+            entity.Property(p => p.Id)
+               .IsRequired();
+        }
+
+        private void BuildContactEntity(EntityTypeBuilder<ContactInfo> entity)
+        {
+            entity.ToTable("Contacts");
+            entity.HasKey(p => p.Id);
+            entity.HasIndex(p => p.Id);
+            entity.Property(p => p.Id)
+               .IsRequired();
+        }
+
+        private void BuildMessageTemplateEntity(EntityTypeBuilder<MessageTemplateInfo> entity)
+        {
+            entity.ToTable("MessageTemplates");
+            entity.HasKey(p => p.Id);
+            entity.HasIndex(p => p.Id);
+            entity.Property(p => p.Id)
+               .IsRequired();
+        }
+        private void BuildContactMessageNoticeEntity(EntityTypeBuilder<ContactMessageNoticeInfo> entity)
+        {
+            entity.ToTable("ContactMessageNotices");
+            entity.HasKey(p => p.Id);
+            entity.HasIndex(p => p.Id);
+            entity.HasIndex(p => p.ContactId);
+            entity.Property(p => p.Id).IsRequired();
+        }
+
+        #endregion
+
+        #region DingtalkDb Server=10.168.95.225;Database=DingtalkDb;Uid=yibi;Pwd=D640ms0GuuIZ46tOsU6o
+
+        //private void BuildDepartmentEntity(EntityTypeBuilder<DepartmentInfo> entity)
+        //{
+        //    entity.ToTable("Department");
+        //    entity.HasKey(p => p.Id);
+        //    entity.HasIndex(p => p.Id);
+
+        //    entity.Property(p => p.Id)
+        //       .HasMaxLength(MaxNameLength)
+        //       .IsRequired();
+
+        //    entity.Property(p => p.Name).HasMaxLength(MaxNameLength);
+
+        //}
+
+        //private void BuildStaffEntity(EntityTypeBuilder<StaffInfo> entity)
+        //{
+        //    entity.ToTable("Staff");
+        //    entity.HasKey(p => p.Id);
+        //    entity.HasIndex(p => p.Id);
+
+        //    entity.Property(p => p.Id)
+        //       .HasMaxLength(MaxNameLength)
+        //       .IsRequired();
+
+        //    entity.Property(p => p.Name).HasMaxLength(MaxNameLength);
+
+        //}
+
+        //private void BuildProcessInstanceEntity(EntityTypeBuilder<ProcessInstanceInfo> entity)
+        //{
+        //    entity.ToTable("ProcessInstance");
+        //    entity.HasKey(p => p.Id);
+        //    entity.HasIndex(p => p.Id);
+
+        //    entity.Property(p => p.Id)
+        //       .HasMaxLength(MaxNameLength)
+        //       .IsRequired();
+        //}
+
+        #endregion
 
         //private void BuildPackageEntity(EntityTypeBuilder<Packages> package)
         //{
@@ -57,7 +145,7 @@ namespace Yibi.Core.Entities
         //       .IsRequired();
 
         //    package.Property(p => p.Name).HasMaxLength(MaxNameLength);
-            
+
         //}
 
         //private void BuildStudentsEntity(EntityTypeBuilder<Students> package)

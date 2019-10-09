@@ -8,7 +8,7 @@ namespace Yibi.Core.Entities
     {
         DatabaseFacade Database { get; }
 
-        DbSet<StaffInfo> Staffs { get; set; }
+        //DbSet<StaffInfo> Staffs { get; set; }
 
         //DbSet<Students> Students { get; set; }
 
