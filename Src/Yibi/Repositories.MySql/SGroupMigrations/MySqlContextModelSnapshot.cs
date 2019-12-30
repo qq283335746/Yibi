@@ -45,6 +45,48 @@ namespace Yibi.Repositories.MySql.SGroupMigrations
                     b.ToTable("Contacts");
                 });
 
+            modelBuilder.Entity("Yibi.Core.Entities.ContactMessageNoticeInfo", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<Guid>("ContactId");
+
+                    b.Property<DateTime>("CreatedDate");
+
+                    b.Property<string>("DingtalkContent");
+
+                    b.Property<string>("DingtalkUserId");
+
+                    b.Property<string>("Email");
+
+                    b.Property<string>("EmailContent");
+
+                    b.Property<bool>("IsFinish");
+
+                    b.Property<bool>("IsSendDingtalk");
+
+                    b.Property<bool>("IsSendEmail");
+
+                    b.Property<bool>("IsSendSms");
+
+                    b.Property<DateTime>("LastUpdatedDate");
+
+                    b.Property<string>("MobilePhone");
+
+                    b.Property<string>("SmsContent");
+
+                    b.Property<int>("TotalOperation");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ContactId");
+
+                    b.HasIndex("Id");
+
+                    b.ToTable("ContactMessageNotices");
+                });
+
             modelBuilder.Entity("Yibi.Core.Entities.MessageTemplateInfo", b =>
                 {
                     b.Property<Guid>("Id")

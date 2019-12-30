@@ -9,8 +9,8 @@ using Yibi.Repositories.MySql;
 namespace Yibi.Repositories.MySql.SGroupMigrations
 {
     [DbContext(typeof(MySqlContext))]
-    [Migration("20190927023445_SGroupMigrations004")]
-    partial class SGroupMigrations004
+    [Migration("20191010085603_SGroupMigrations008")]
+    partial class SGroupMigrations008
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -38,11 +38,77 @@ namespace Yibi.Repositories.MySql.SGroupMigrations
 
                     b.Property<string>("StaffNumber");
 
+                    b.Property<string>("TemplateIds");
+
                     b.HasKey("Id");
 
                     b.HasIndex("Id");
 
                     b.ToTable("Contacts");
+                });
+
+            modelBuilder.Entity("Yibi.Core.Entities.ContactMessageNoticeInfo", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<Guid>("ContactId");
+
+                    b.Property<DateTime>("CreatedDate");
+
+                    b.Property<string>("DingtalkContent");
+
+                    b.Property<string>("DingtalkUserId");
+
+                    b.Property<string>("Email");
+
+                    b.Property<string>("EmailContent");
+
+                    b.Property<bool>("IsFinish");
+
+                    b.Property<bool>("IsSendDingtalk");
+
+                    b.Property<bool>("IsSendEmail");
+
+                    b.Property<bool>("IsSendSms");
+
+                    b.Property<DateTime>("LastUpdatedDate");
+
+                    b.Property<string>("MobilePhone");
+
+                    b.Property<string>("SmsContent");
+
+                    b.Property<int>("TotalOperation");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ContactId");
+
+                    b.HasIndex("Id");
+
+                    b.ToTable("ContactMessageNotices");
+                });
+
+            modelBuilder.Entity("Yibi.Core.Entities.MessageTemplateInfo", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Content");
+
+                    b.Property<DateTime>("CreatedDate");
+
+                    b.Property<DateTime>("LastUpdatedDate");
+
+                    b.Property<string>("Name");
+
+                    b.Property<string>("Parms");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Id");
+
+                    b.ToTable("MessageTemplates");
                 });
 
             modelBuilder.Entity("Yibi.Core.Entities.ResourceGroupAccountInfo", b =>
@@ -69,26 +135,6 @@ namespace Yibi.Repositories.MySql.SGroupMigrations
                     b.HasIndex("Id");
 
                     b.ToTable("ResourceGroupAccount");
-                });
-
-            modelBuilder.Entity("Yibi.Core.Entities.TemplateInfo", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<string>("Content");
-
-                    b.Property<DateTime>("CreatedDate");
-
-                    b.Property<DateTime>("LastUpdatedDate");
-
-                    b.Property<string>("Parms");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("Id");
-
-                    b.ToTable("Templates");
                 });
 
             modelBuilder.Entity("Yibi.Core.Entities.TypeNameInfo", b =>

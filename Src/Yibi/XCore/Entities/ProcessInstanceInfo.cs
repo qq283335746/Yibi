@@ -1,12 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using Nebula.Services.Dingtalk.Enums;
 
-namespace Yibi.Core.Entities
+namespace Nebula.Services.Dingtalk.Entities
 {
     public class ProcessInstanceInfo
     {
-        public string Id { get; set; }
+        public Guid Id { get; set; }
+
+        public string ProcessInstanceId { get; set; }
 
         public ProcessInstanceStatus Status { get; set; }
 
@@ -23,13 +24,5 @@ namespace Yibi.Core.Entities
         public DateTime CreatedDate { get; set; }
 
         public DateTime LastUpdatedDate { get; set; }
-    }
-
-    public enum ProcessInstanceStatus
-    {
-        New,
-        Running,
-        Terminated,
-        Completed
     }
 }

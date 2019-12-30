@@ -1,15 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Yibi.Core.Entities
+namespace Nebula.Services.Dingtalk.Entities
 {
     public class StaffInfo
     {
+        public Guid Id { get; set; }
+
         /// <summary>
         /// 用户ID，对应钉钉的用户ID
         /// </summary>
-        public string Id { get; set; }
+        public string UserId { get; set; }
 
         /// <summary>
         /// 姓名
@@ -24,7 +24,7 @@ namespace Yibi.Core.Entities
         /// <summary>
         /// 手机号
         /// </summary>
-        public string Phone { get; set; }
+        public string MobilePhone { get; set; }
 
         /// <summary>
         /// 邮箱
@@ -34,16 +34,20 @@ namespace Yibi.Core.Entities
         /// <summary>
         /// 所属部门ID
         /// </summary>
-        public string DepmtId { get; set; }
+        public string DepmtIds { get; set; }
 
         /// <summary>
         /// 所属部门名称
         /// </summary>
-        public string DepmtName { get; set; }
+        public string DepmtNames { get; set; }
 
         /// <summary>
         /// 是否是部门的主管
         /// </summary>
         public bool IsLeader { get; set; }
+
+        public DateTime CreatedDate { get; set; }
+
+        public DateTime LastUpdatedDate { get; set; }
     }
 }

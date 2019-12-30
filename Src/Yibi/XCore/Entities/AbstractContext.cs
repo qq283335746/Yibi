@@ -36,9 +36,9 @@ namespace Yibi.Core.Entities
             builder.Entity<MessageTemplateInfo>(BuildMessageTemplateEntity);
             builder.Entity<ContactMessageNoticeInfo>(BuildContactMessageNoticeEntity);
 
-            //builder.Entity<DepartmentInfo>(BuildDepartmentEntity);
-            //builder.Entity<StaffInfo>(BuildStaffEntity);
-            //builder.Entity<ProcessInstanceInfo>(BuildProcessInstanceEntity);
+            //builder.Entity<Nebula.Services.Dingtalk.Entities.DepartmentInfo>(BuildDepartmentEntity);
+            //builder.Entity<Nebula.Services.Dingtalk.Entities.StaffInfo>(BuildStaffEntity);
+            //builder.Entity<Nebula.Services.Dingtalk.Entities.ProcessInstanceInfo>(BuildProcessInstanceEntity);
 
             //builder.Entity<Packages>(BuildPackageEntity);
             //builder.Entity<Students>(BuildStudentsEntity);
@@ -94,44 +94,37 @@ namespace Yibi.Core.Entities
 
         #region DingtalkDb Server=10.168.95.225;Database=DingtalkDb;Uid=yibi;Pwd=D640ms0GuuIZ46tOsU6o
 
-        //private void BuildDepartmentEntity(EntityTypeBuilder<DepartmentInfo> entity)
-        //{
-        //    entity.ToTable("Department");
-        //    entity.HasKey(p => p.Id);
-        //    entity.HasIndex(p => p.Id);
+        private void BuildDepartmentEntity(EntityTypeBuilder<Nebula.Services.Dingtalk.Entities.DepartmentInfo> entity)
+        {
+            entity.ToTable("Department");
+            entity.HasKey(p => p.Id);
+            entity.HasIndex(p => p.Id);
 
-        //    entity.Property(p => p.Id)
-        //       .HasMaxLength(MaxNameLength)
-        //       .IsRequired();
+            entity.Property(p => p.Id)
+               .HasMaxLength(MaxNameLength)
+               .IsRequired();
 
-        //    entity.Property(p => p.Name).HasMaxLength(MaxNameLength);
+            entity.Property(p => p.Name).HasMaxLength(MaxNameLength);
 
-        //}
+        }
 
-        //private void BuildStaffEntity(EntityTypeBuilder<StaffInfo> entity)
-        //{
-        //    entity.ToTable("Staff");
-        //    entity.HasKey(p => p.Id);
-        //    entity.HasIndex(p => p.Id);
+        private void BuildStaffEntity(EntityTypeBuilder<Nebula.Services.Dingtalk.Entities.StaffInfo> entity)
+        {
+            entity.ToTable("Staff");
+            entity.HasKey(p => p.Id);
+            entity.HasIndex(p => p.Id);
+            entity.Property(p => p.Id).IsRequired();
+            entity.Property(p => p.Name).HasMaxLength(MaxNameLength);
 
-        //    entity.Property(p => p.Id)
-        //       .HasMaxLength(MaxNameLength)
-        //       .IsRequired();
+        }
 
-        //    entity.Property(p => p.Name).HasMaxLength(MaxNameLength);
-
-        //}
-
-        //private void BuildProcessInstanceEntity(EntityTypeBuilder<ProcessInstanceInfo> entity)
-        //{
-        //    entity.ToTable("ProcessInstance");
-        //    entity.HasKey(p => p.Id);
-        //    entity.HasIndex(p => p.Id);
-
-        //    entity.Property(p => p.Id)
-        //       .HasMaxLength(MaxNameLength)
-        //       .IsRequired();
-        //}
+        private void BuildProcessInstanceEntity(EntityTypeBuilder<Nebula.Services.Dingtalk.Entities.ProcessInstanceInfo> entity)
+        {
+            entity.ToTable("ProcessInstance");
+            entity.HasKey(p => p.Id);
+            entity.HasIndex(p => p.Id);
+            entity.Property(p => p.Id).IsRequired();
+        }
 
         #endregion
 
