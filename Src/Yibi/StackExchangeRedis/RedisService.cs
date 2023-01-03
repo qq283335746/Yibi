@@ -27,12 +27,12 @@ namespace Yibi.StackExchangeRedis
 
         public async Task<bool> SetValueAsync(string key, string value, TimeSpan? expiry = null)
         {
-            return await Db.StringSetAsync(key, value, expiry, When.Always);
+            return await Db.StringSetAsync(key, value, expiry, When.Always, CommandFlags.None);
         }
 
         public async Task<bool> SetNxValueAsync(string key, string value, TimeSpan? expiry = null)
         {
-            return await Db.StringSetAsync(key, value, expiry, When.NotExists);
+            return await Db.StringSetAsync(key, value, expiry, When.NotExists, CommandFlags.None);
         }
     }
 }
